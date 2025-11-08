@@ -1,0 +1,28 @@
+version: 1
+project:
+  id: d2e93c8a-3d7a-4a13-9d49-7a6c7c6e6b3e   # (can be any unique UUID)
+  title: "Homework 3 – LIGO Event Tutorial"
+  authors:
+    - name: "Demi Leng"
+      affiliation: "UC Berkeley"
+  github: https://github.com/DemiLeng/hw3-DemiLeng
+  toc:
+    - file: README.md
+      title: "Landing Page"
+    - file: LOSC_Event_tutorial.ipynb
+      title: "Notebook"
+
+site:
+  template: book-theme
+  options:
+    use_repository_button: true
+    extra_navbar: |
+      [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DemiLeng/hw3-DemiLeng/main?labpath=LOSC_Event_tutorial.ipynb)
+    extra_footer: "Built with [MyST](https://mystmd.org/) for Stat 159 / 259."
+
+exports:
+  - format: html
+    build_dir: _build/html
+    files:
+      - README.md
+      - LOSC_Event_tutorial.ipynb
