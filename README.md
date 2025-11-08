@@ -6,6 +6,6 @@ _This repository is public so that Binder can find it. All code and data is base
 In this assignment, I reorganized the tutorial into a more reproducible research workflow by creating a `ligotools` folder for reusable functions, adding automated tests, building a MyST site with Binder integration, and deploying the rendered notebook to GitHub Pages.
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DemiLeng/hw3-DemiLeng/main?labpath=LOSC_Event_tutorial.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-DemiLeng/HEAD)
 
-[MyST Site](https://demileng.github.io/hw3-DemiLeng/)
+[MyST Site](https://ucb-stat-159-f25.github.io/hw3-DemiLeng/)
