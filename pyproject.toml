@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools >= 70", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+version = "0.1.0"  
+authors = [
+  { name="Ligo Scientific Collaboration (LSC) and Demi Leng", email="demileng@berkeley.edu" },
+]
+description = "tools for the LIGO tutorial"
+readme = "README.md"
+
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "h5py", "matplotlib", "ipykernel"]
+
+[tool.setuptools]
+packages = ["ligotools"]
